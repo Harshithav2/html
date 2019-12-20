@@ -1,0 +1,20 @@
+.verticle{
+    border-right: 1px solid grey;
+    height: 300px;
+    width: 250px;
+    list-style-type:none;  
+}
+ul{
+    display: inline;
+}
+li{
+    float: left;
+    margin-left: 15px;
+    padding-right: 10px;
+}
+.a{
+    font-weight: bold;
+}
+p{
+    margin-top: 1px;
+}
