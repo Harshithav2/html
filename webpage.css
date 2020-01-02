@@ -1,0 +1,570 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+/*header*/
+.header-style{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(55, 55, 56);
+    color: white;
+}
+.head-infos{ 
+    border-bottom: 2px solid orangered;
+}
+.head-icons{
+    padding-left: 33%;
+    padding-right: 4%;   
+}
+header div > i{
+    padding: 0px 10px;
+    margin: 0px 5px 0px 5px;
+}
+.phone{
+    background-color: orangered;
+    padding: 18px;
+}
+
+/* first section*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 300px;  
+  }
+  
+  .flex-container > div {
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    height: 50px;
+  }
+  .section-first-left{
+      font-size: 25px;
+      color: orangered;
+      font-family: sans-serif;   
+  }
+  .drop {
+    color:black; 
+    padding: 2px; 
+    font-size: 15px; 
+    border: transparent; 
+    cursor: pointer; 
+    text-decoration: none; } 
+.dropdown { 
+    position: relative; 
+    display: inline-block; 
+} 
+.dropdown-content {
+    display: none; 
+    position: absolute; 
+    min-width: 160px; 
+    z-index: 1; 
+    background-color: white;  
+    margin-top: 0px; 
+    padding-top: 0px; 
+    margin-top: 0px; 
+    padding-top: 0px;
+} 
+.dropdown-content a { 
+    color: black; 
+    padding: 10px 16px; 
+    text-decoration: none; 
+    display: block; 
+    text-align: left; 
+} 
+.dropdown-content a:hover {
+    color:orangered; 
+} 
+.dropdown:hover .dropdown-content { 
+    display: block; 
+} 
+.dropdown:hover .drop { 
+    color: orangered; 
+    width: 20px; 
+    height:20px; 
+}
+.first-section-right{
+    font-size: 18px;
+    font-family: sans-serif;
+    color:red;
+}    
+.button{
+    color: orangered;
+    border: 1px solid orangered;
+    height: 40px;
+    font-size: 18px;
+    background-color: white;
+    margin-left: 30px;
+    padding: 5px 10px 5px 10px;
+}
+
+/*Section two image slider*/
+.section-two-imageslider{
+    height: 750px;
+    width:100%;
+    background: black;  
+}
+.img-overlay{
+    width: 100%;
+    height: 750px;
+    opacity: .4;  
+}
+.imgslider-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.imgslider-text fieldset{
+    border: 2px solid white;
+}
+.imgslider-text legend{
+    font-size: 55px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;   
+}
+.underline{
+    border-bottom: 2px solid orangered;
+}
+.imgslider-text button{
+    background: transparent;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    border: 1px solid white;
+}
+.imgslider-text p{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/*section three form*/
+.form{
+    width: 300px;
+    height:280px;
+    padding: 40px;
+    color: grey;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow:0 4px 8px 0 rgba(0, 0,0, 0.2), 0 6px 20px 0 rgba(0, 0,0, 0.19);   
+}
+.form input[type=text]{
+    background-color: #f1f1f1;
+    border: none;
+    width: 270px;
+    height: 40px;
+    color: grey;
+    padding-left: 20px;
+    font-size: 15px;
+    margin: 5px 0px 5px 0px;
+}
+.checkbox{
+    color: orangered;
+}
+.form-submit{
+    background-color: orangered;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    width: 290px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.form-align{
+    top: 95%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    background-color: white;
+}
+/*leave us a message section*/
+.lev-msg{
+    width: 44%;
+    padding: 10px 300px 10px 10px;
+    float: right;
+    margin-left: 500px;
+    margin-bottom: 60px;
+}
+.lev-msg p{
+    color:grey;
+    line-height: 25px;
+    padding-top: 0px;
+}
+.txt-underline{
+    border-bottom: 2px solid orangered;
+    float: left;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+/*section three flex boxes*/
+.flex-three-container{
+    display: flex;
+    justify-content: center;
+    padding-right: 12%;
+    padding-left: 9.0%;
+    flex-wrap: wrap;
+    font-size: 17px;
+    margin-top: 100px;
+    padding-bottom: 100PX;
+}
+.flex-three-container > div{
+    border: 1px solid rgb(221, 209, 209);
+    margin: 15px;
+    width: 330px;
+    padding:10px;
+}
+.flex-three-icon{
+    border:1px solid rgb(221, 209, 209);
+    padding: 15px;
+    float: left;
+    margin: 10px 30px 10px 10px;
+    color: orangered;  
+}
+.flex-three-content
+{
+    float: right; font-family: sans-serif;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+.flex-three-p{
+    color: grey;
+    padding-left: 90px;
+}
+.flex-three-container div:hover{
+    border: 1px solid orangered;  
+}
+.flex-three-container div i:hover{
+    background-color: red;
+    color: white;
+}
+.flex-three-container div div:hover{
+    border: none;
+}
+/*our causes container css*/
+.common-container{
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+/*symbol*/
+.line2{ 
+    width: 40px; 
+    margin-left: 160px; 
+    border-bottom: 2px solid orangered; 
+    margin-top: 20px; 
+    float: left; 
+} 
+.line3{ 
+    width: 40px; 
+    border-bottom: 2px solid orangered; 
+    margin-top: 20px; 
+    float: left; 
+} 
+.fa-tint{ 
+    padding-bottom: 20px;
+} 
+.tint{ 
+    width:25px; 
+    color: orangered; 
+    float: left; 
+    height:25px; 
+    padding: 10px 5px 0px 5px;
+    border-top: 2px solid orangered; 
+    border-bottom: 2px solid orangered; 
+}
+.drop-symbol{
+    margin-left: 38%;
+}
+.ourclass-p{
+    color: grey;
+    width:550px;
+    text-align: center;
+    margin-left: 35%;
+    line-height: 25px;
+}
+.flex-common{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-common > div{
+    width: 350px;
+    height: 360px;
+    margin-left: 50px;
+}
+.flex-center{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.flex-common div > p{
+    color: grey;
+}
+.about-us{
+    background-color: whitesmoke;
+    margin-bottom: 0px;
+}
+/*section our causes*/
+.ourcauses{
+    height: 1020px;
+}
+.ourcause-txt{
+    border: 1px solid rgb(221, 209, 209);
+    width: 325px;
+    height: 350px;
+    margin-top: -5px;
+    padding: 10px 20px 10px 20px;
+}
+.donatedamt div > p{
+    color: orangered;
+    font-size: 14px;
+}
+.donatedamt div{
+    line-height: 8px;
+}
+.align-goal{
+    float: right; 
+    text-align: right;
+}
+/*progress bar*/
+.progressbar{
+    border: 1px solid rgb(221, 209, 209);
+    height: 4px;
+    margin-top: 95px;
+    margin-bottom: 40px;
+}
+.progressbar > div{
+    background-color: orangered;
+    width: 40%;
+    height: 4px;
+}
+/*section six heart broken story*/
+.hrt-brken-stry{
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+.hrt-brken-stry > div{
+    width: 555px;
+    height: 300px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.hrt-brken-stry div > p{
+    color: white;
+    line-height: 25px;
+    font-size: 15px;
+}
+.hrt-brken-image{
+    background-color: black;
+}
+.hrt-brken-image-overlay{
+    width: 555px;
+    height: 300px;
+    opacity: .4;
+}
+.play-btn{
+    top: 50%;
+    left: 50%;
+    transform: translate(250%,-200%);
+}
+/*section seven OUR GALLERY*/
+.ourgallery{
+    height: 673px;
+}
+.flex-commons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-commons-align{
+    float: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+}
+.galley-4-img{
+    background-color: black;
+    height: 400px;
+}
+.over-lay{
+    width: 300px;
+    height: 400px;
+    opacity: .4;
+}
+.img{
+    margin-bottom: -4px;
+}
+/*SECTION EIGHT OUR VOLUNTEER*/
+.ourvolunteer{
+    height: 870px;
+    background-color: whitesmoke;
+    margin-bottom: 0px;
+}
+.flex-ourvolunteer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 90px;
+}
+.volunteer-icon{
+    padding-left: 27px;
+    padding-right: 35px;
+    margin-left: 10px;
+    color: grey;
+}
+.iconcenter{
+    padding-top: 20px;
+    border-top: 0.5px solid rgb(221, 209, 209);
+}
+.volunteer-icon div > i{
+    margin: 13px;    
+}
+.volunteer{
+    width: 250px;
+    background-color: white;
+    height: 325px;
+    margin: 10px;
+}
+.volunteer > img{
+    margin: -70px;
+    padding-left: 95px;
+}
+.volunteer p{
+    text-align: center;
+}
+.volunteer-p{
+    padding-top: 100px;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dots{
+    text-align: center;
+    margin-top: 45px;
+}
+.dote {
+    height: 8px;
+    width: 8px;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+/*footor section*/
+.footer-field{ 
+    background-color: rgb(55, 55, 57); 
+    margin-top:0em; 
+} 
+.foot-list{ 
+    display:flex; 
+    justify-content: center; 
+} 
+.foot-list ul{ 
+    padding:0.5em; 
+    list-style-type: none; 
+    width:16em; 
+    margin-right:10px; 
+    height:auto; 
+} 
+.foot-list ul li{ 
+    padding:0.5em; 
+    color:white; 
+    border-bottom: 1px solid gray; 
+    text-transform: capitalize; 
+} 
+.foot-list ul li:first-child{ 
+    border:none; 
+    text-transform: uppercase; 
+} 
+.foot-list ul hr{ 
+    border: 0.5px solid orangered; 
+    width:18%; 
+    margin-left:0.5em; 
+    margin-top:-0.4em; 
+} 
+.foot-list ul .last-item{ 
+    border-bottom: none; 
+} 
+.foot-list li .button2{ 
+    width:auto; 
+    padding:20px; 
+    margin-top:-0.3em; 
+    text-align: center; 
+    line-height: 50%; 
+    color: white;
+} 
+.foot-list ul li .button2:hover{ 
+    background-color: red; 
+    border: 2px solid red;
+} 
+.foot-signup{ 
+    background-color: orangered; 
+    padding:2em 0 2em 2em; 
+    color:white; 
+    display:flex; 
+    justify-content:center; 
+} 
+.foot-signup div{ 
+    margin-right:1em; 
+} 
+.foot-signup div span{ 
+    font-size: 2em; 
+    font-weight: bold; 
+    text-transform: capitalize; 
+    margin-right:3em; 
+} 
+.foot-signup input[type="mail"]{ 
+    width:30em; 
+    padding:1em; 
+    border:none; 
+} 
+.foot-signup .button3{ 
+    padding: 20px; 
+    width:auto; 
+    text-align: center; 
+    line-height: 50%; 
+    border:1px solid white; 
+    color:white; 
+    text-transform: uppercase; 
+    background-color: orangered;
+} 
+.foot-copyrgt{ 
+    background-color: black; 
+    height:5%; 
+    text-align:center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+.foot-copyrgt span{ 
+    text-transform:capitalize; 
+    font-size:1em; 
+    color:white; 
+    padding:2em; 
+}
+.buttons{ 
+    height:2em; 
+    width:10em; 
+    padding:5px;
+     background:none; 
+}
+/*https://stackoverflow.com/questions/19985972/html-fieldset-with-two-legends-top-and-bottom
+https://stackoverflow.com/questions/2812770/add-centered-text-to-the-middle-of-a-hr-like-line
+https://stackoverflow.com/questions/2812770/add-centered-text-to-the-middle-of-a-hr-like-line*/
