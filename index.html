@@ -6,7 +6,7 @@
         Web Page
     </title>
     <meta charset="utf-8">
-    <meta name='viewport' content="width=device-width" , initial-scale=1'>
+    <meta name='viewport' content="width=device-width , initial-scale=1">
     <link rel="stylesheet" href="webpage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -28,10 +28,9 @@
         </div>
     </header>
 <!--===================================================================
-first section includes company name n drop down
+first section includes company name and drop down
 =======================================================================-->
-    <div class="flex-container">
-
+    <nav class="flex-container">
         <div class="section-first-left">
             COMPANY NAME
         </div>
@@ -78,25 +77,27 @@ first section includes company name n drop down
         <div class="first-section-right">
             <button class="button"> DONATE NOW</button>
         </div>
-    </div>
-    <!--===================================================================
+    </nav>
+<!--===================================================================
 second section image sliders
 =======================================================================-->
-    <div class="section-two-imageslider">
+    <section class="section-two-imageslider">
         <img src="images/slider.jpg" class="img-overlay" alt="donate picture">
         <div class="imgslider-text">
-            <fieldset>
+            <fieldset style="border-bottom: none;">
                 <legend>
                     <div class="underline">Save The Life</div>
                 </legend>
                 <p>Lorem Ipsum Dolor sit Amet, Consectetur Adipisicing Elit, Sed Do Elusmod Tempor </p>
-                <p> Incididunt Ut Labore Et Dolore Magna Alique.</p>
-                <button>READ MORE</button>
+                <p style="padding-bottom: 20px;"> Incididunt Ut Labore Et Dolore Magna Alique.</p>
+            </fieldset>
+            <fieldset class="btn-readmore-align">
+                <legend><button>READ MORE</button></legend>
             </fieldset>
         </div>
-    </div>
+    </section>
     <!--====registration form=====-->
-    <div class="form-align">
+    <article class="form-align">
         <form class="form">
             Name<br>
             <input type="text" name="name" value="Full Name">
@@ -108,7 +109,7 @@ second section image sliders
                 <input type="checkbox" name="Remember me" value="Bike"> Remember Me<br><br></div>
             <button type="submit" class="form-submit"> SUBMIT</button>
         </form>
-    </div>
+    </article>
     <!--leave message section-->
     <section class="lev-msg">
         <h1>
@@ -123,14 +124,13 @@ second section image sliders
 <!-- ===================================================================
     third section flex
 =========================================================================-->
-
     <!--flex box section three-->
     <section class="flex-three-container">
         <div>
             <i class="fa fa-wrench flex-three-icon"></i>
             <div>
                 <p class="flex-three-container-p">
-                    <div class="txt-underline">Lnteract</div>ive Elements
+                    <span class="txt-underline">Lnteract</span>ive Elements
                 </p>
                 <p class="flex-three-p">Lorem ipsum dolor sit amet,
                     consectetur adipiscingelit, do
@@ -142,7 +142,7 @@ second section image sliders
             <i class="fa fa-heartbeat flex-three-icon"></i>
             <div>
                 <p>
-                    <div class="txt-underline">Donate&nbsp;</div>
+                    <span class="txt-underline">Donate&nbsp;</span>
                 </p><br>
                 <p class="flex-three-p">Lorem ipsum dolor sit amet,
                     consectetur adipiscingelit, do
@@ -154,7 +154,7 @@ second section image sliders
             <i class="fa fa-usd flex-three-icon"></i>
             <div>
                 <p>
-                    <div class="txt-underline">Donate&nbsp;</div>
+                    <span class="txt-underline">Donate&nbsp;</span>
                 </p><br>
                 <p class="flex-three-p">Lorem ipsum dolor sit amet,
                     consectetur adipiscingelit, do
@@ -166,7 +166,7 @@ second section image sliders
             <i class="fa fa-credit-card flex-three-icon"></i>
             <div>
                 <p>
-                    <div class="txt-underline">Contribu</div>te
+                    <span class="txt-underline">Contribu</span>te
                 </p>
                 <p class="flex-three-p">Lorem ipsum dolor sit amet,
                     consectetur adipiscingelit, do
@@ -180,7 +180,7 @@ second section image sliders
             </div>
             <div>
                 <p>
-                    <div class="txt-underline">Participa</div>te
+                    <span class="txt-underline">Participa</span>te
                 </p>
                 <p class="flex-three-p">Lorem ipsum dolor sit amet,
                     consectetur adipiscingelit, do
@@ -192,7 +192,7 @@ second section image sliders
             <i class="fa fa-wrench flex-three-icon"></i>
             <div>
                 <p>
-                    <div class="txt-underline">Lnteract</div>ive Elements
+                    <span class="txt-underline">Lnteract</span>ive Elements
                 </p>
                 <p class="flex-three-p">Lorem ipsum dolor sit amet,
                     consectetur adipiscingelit, do
@@ -224,7 +224,7 @@ second section image sliders
             <div>
                 <div>
                     <h3>
-                        <div class="txt-underline">DONAT</div>ION
+                        <span class="txt-underline">DONAT</span>ION
                     </h3>
                     <P>Vision is our mission. Restoring vision to people in
                         developing nation is our cause. We are a nonpr
@@ -233,7 +233,7 @@ second section image sliders
                 </div>
                 <div>
                     <h3>
-                        <div class="txt-underline">FUNDR</div>ISE
+                        <span class="txt-underline">FUNDR</span>ISE
                     </h3>
                     <P>Vision is our mission. Restoring vision to people in
                         developing nation is our cause. We are a nonpr
@@ -246,14 +246,14 @@ second section image sliders
             </div>
             <div>
                 <h3>
-                    <div class="txt-underline">SCHOL</div>ARSHIP
+                    <span class="txt-underline">SCHOL</span>ARSHIP
                 </h3>
                 <P>Vision is our mission. Restoring vision to people in
                     developing nation is our cause. We are a nonpr
                     local physicians
                 </P><br>
                 <h3>
-                    <div class="txt-underline">VOLUN</div>TEER
+                    <span class="txt-underline">VOLUN</span>TEER
                 </h3>
                 <P>Vision is our mission. Restoring vision to people in
                     developing nation is our cause. We are a nonpr
@@ -284,13 +284,17 @@ second section image sliders
                 <img src="images/causes-1.jpg" alt="causes-1">
                 <div class="ourcause-txt">
                     <h3>
-                        <div class="txt-underline">Feed For </div>&nbsp;Hungry
+                        <span class="txt-underline">Feed For </span>&nbsp;Hungry
                     </h3>
-                    <P>Lorem ipsum dolorsit amet, consectetur
+                    <p>Lorem ipsum dolorsit amet, consectetur
                         elit.
                         Sed eget lorem magna. Fusce eu urna a
                         sapin fringila viverra.
-                    </P>
+                    </p>
+                    <section class="shape-align-one">
+                        <div class="shape"><div class="shape-text">40%</div></div>
+                        <div class="triangle-down"></div>
+                    </section>
                     <div class="progressbar">
                         <div></div>
                     </div>
@@ -310,13 +314,17 @@ second section image sliders
                 <img src="images/causes-2.jpg" alt="causes-2">
                 <div class="ourcause-txt">
                     <h3>
-                        <div class="txt-underline">Feed For </div>&nbsp;Hungry
+                        <span class="txt-underline">Feed For </span>&nbsp;Hungry
                     </h3>
                     <P>Lorem ipsum dolorsit amet, consectetur
                         elit.
                         Sed eget lorem magna. Fusce eu urna a
                         sapin fringila viverra.
                     </P>
+                    <section class="shape-align-two">
+                        <div class="shape"><div class="shape-text">60%</div></div>
+                        <div class="triangle-down"></div>
+                    </section>
                     <div class="progressbar">
                         <div style="width: 60%;"></div>
                     </div>
@@ -336,13 +344,17 @@ second section image sliders
                 <img src="images/causes-3.jpg" alt="causes-3">
                 <div class="ourcause-txt">
                     <h3>
-                        <div class="txt-underline">Feed For </div>&nbsp;Hungry
+                        <span class="txt-underline">Feed For </span>&nbsp;Hungry
                     </h3>
                     <P>Lorem ipsum dolorsit amet, consectetur
                         elit.
                         Sed eget lorem magna. Fusce eu urna a
                         sapin fringila viverra.
                     </P>
+                    <section class="shape-align-three">
+                        <div class="shape"><div class="shape-text">80%</div></div>
+                        <div class="triangle-down"></div>
+                    </section>
                     <div class="progressbar">
                         <div style="width: 80%;"></div>
                     </div>
@@ -368,7 +380,7 @@ second section image sliders
             <img src="images/play-btn.png" class="play-btn"></div>
         <div style="padding-top: 4%;">
             <h3>
-                <div class="txt-underline">HEAR</div>T BROCKEN STORY
+                <span class="txt-underline">HEAR</span>T BROCKEN STORY
             </h3>
             <P>Even the all-powerful pointing has no control about the blind texts its is an
                 almost unorthographic life One day however a samll line of blind text by the

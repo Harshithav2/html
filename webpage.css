@@ -11,7 +11,7 @@ body{
     color: white;
 }
 .head-infos{ 
-    border-bottom: 2px solid orangered;
+    border-bottom: 2px solid #f44121;
 }
 .head-icons{
     padding-left: 33%;
@@ -22,7 +22,7 @@ header div > i{
     margin: 0px 5px 0px 5px;
 }
 .phone{
-    background-color: orangered;
+    background-color: #f44121;
     padding: 18px;
 }
 
@@ -32,21 +32,20 @@ header div > i{
     flex-wrap: wrap;
     padding-left: 300px;  
   }
-  
-  .flex-container > div {
+.flex-container > div {
     padding-right: 30px;
     padding-left: 20px;
+    margin-bottom: 10px;
     padding-top: 20px;
-    margin-bottom: 5px;
     text-align: center;
     height: 50px;
-  }
-  .section-first-left{
+}
+.section-first-left{
       font-size: 25px;
       color: orangered;
       font-family: sans-serif;   
-  }
-  .drop {
+}
+.drop {
     color:black; 
     padding: 2px; 
     font-size: 15px; 
@@ -139,12 +138,18 @@ header div > i{
     padding: 10px 20px 10px 20px;
     font-size: 15px;
     border: 1px solid white;
+    margin: 30px;
 }
 .imgslider-text p{
     padding-right: 50px;
     padding-left: 50px;
 }
-
+.imgslider-text .btn-readmore-align{
+    border-left: none;
+    border-bottom: none;
+    border-right: none ;
+    margin-top: -50px;
+}
 /*section three form*/
 .form{
     width: 300px;
@@ -336,12 +341,46 @@ header div > i{
     float: right; 
     text-align: right;
 }
+/*progress bar shape*/
+.shape{
+    height: 32px;
+    width: 32px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -4px;
+    color: white;
+}
+.shape-text{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 7px 5px 5px 5px
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+    border-top: 10px solid orangered;
+    margin-left: 11px;
+}
+.shape-align-one{
+    padding-top: 53px;
+    padding-left: 113px;
+}
+.shape-align-two{
+    padding-top: 53px;
+    padding-left: 55%;
+}
+.shape-align-three{
+    padding-top: 53px;
+    padding-left: 75%;
+}
 /*progress bar*/
 .progressbar{
-    border: 1px solid rgb(221, 209, 209);
     height: 4px;
-    margin-top: 95px;
     margin-bottom: 40px;
+    background-color: #e4e4e4;
 }
 .progressbar > div{
     background-color: orangered;
@@ -511,11 +550,11 @@ header div > i{
     color: white;
 } 
 .foot-list ul li .button2:hover{ 
-    background-color: red; 
-    border: 2px solid red;
+    background-color: #f44121; 
+    border: 2px solid #f44121;
 } 
 .foot-signup{ 
-    background-color: orangered; 
+    background-color: #cb3d24; 
     padding:2em 0 2em 2em; 
     color:white; 
     display:flex; 
@@ -543,7 +582,7 @@ header div > i{
     border:1px solid white; 
     color:white; 
     text-transform: uppercase; 
-    background-color: orangered;
+    background-color: #cb3d24;
 } 
 .foot-copyrgt{ 
     background-color: black; 
