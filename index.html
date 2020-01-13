@@ -7,7 +7,7 @@
     </title>
     <meta charset="utf-8">
     <meta name='viewport' content="width=device-width , initial-scale=1">
-    <link rel="stylesheet" href="webpage.css">
+    <link rel="stylesheet" href="webpage-align.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -15,16 +15,14 @@
     <!-- Header of company page-->
     <header class="header-style">
         <div class="head-infos">
-            <i class="fa fa-phone phone"></i> +123-456-7890
+            <i class="fa fa-phone"></i> +123-456-7890
             <i class="fa fa-envelope"></i>info@gmail.com
         </div>
-        <div class="head-icons">
-            <div class="head-infos">
+        <div class="head-icons head-infos">
                 <i class="fa fa-facebook"></i>
                 <i class="fa fa-twitter"></i>
-                <i class="fa fa-google-plus phone"></i>
+                <i class="fa fa-google-plus"></i>
                 <i class="fa fa-linkedin"></i>
-            </div>
         </div>
     </header>
 <!--===================================================================
@@ -34,12 +32,13 @@ first section includes company name and drop down
         <div class="section-first-left">
             COMPANY NAME
         </div>
-        <div style="padding-left: 50px;"><i class="fa fa-home">
-                <p style="margin-top: 5px;">Home</p>
+        <section class="comp-icon"><i class="fa fa-bars"></i></section>
+        <div><i class="fa fa-home">
+                <p style="line-height: 0px;">Home</p>
             </i></div>
         <div class="dropdown">
             <a href="#" class="drop"><i class="fa fa-file-text"></i>
-                <p style="margin-top: 5px; margin-bottom: 0px;">Pages</p>
+                <p style="line-height: 0px; margin-bottom: 0px;">Pages</p>
             </a>
             <div class="dropdown-content">
                 <a href="#">About Us</a>
@@ -51,27 +50,27 @@ first section includes company name and drop down
         </div>
         <div>
             <i class="fa fa-cog">
-                <p style="margin-top: 5px;">Services</p>
+                <p style="line-height: 0px;">Services</p>
             </i>
         </div>
         <div>
             <i class="fa fa-calendar">
-                <p style="margin-top: 5px;">Events</p>
+                <p style="line-height: 0px;">Events</p>
             </i>
         </div>
         <div>
             <i class="fa fa-newspaper-o">
-                <p style="margin-top: 5px;">Blogs</p>
+                <p style="line-height: 0px;">Blogs</p>
             </i>
         </div>
         <div>
             <i class="fa fa-life-ring">
-                <p style="margin-top: 5px;">FAQs</p>
+                <p style="line-height: 0px;">FAQs</p>
             </i>
         </div>
         <div>
             <i class="fa fa-phone">
-                <p style="margin-top: 5px;">Conatact</p>
+                <p style="line-height: 0px;">Conatact</p>
             </i>
         </div>
         <div class="first-section-right">
@@ -81,10 +80,10 @@ first section includes company name and drop down
 <!--===================================================================
 second section image sliders
 =======================================================================-->
-    <section class="section-two-imageslider">
+    <article class="section-two-imageslider">
         <img src="images/slider.jpg" class="img-overlay" alt="donate picture">
         <div class="imgslider-text">
-            <fieldset style="border-bottom: none;">
+            <fieldset style="border-bottom: none;" class="resp-border">
                 <legend>
                     <div class="underline">Save The Life</div>
                 </legend>
@@ -95,9 +94,10 @@ second section image sliders
                 <legend><button>READ MORE</button></legend>
             </fieldset>
         </div>
-    </section>
+    </article>
     <!--====registration form=====-->
-    <article class="form-align">
+    <div class="test">
+    <section class="form-align">
         <form class="form">
             Name<br>
             <input type="text" name="name" value="Full Name">
@@ -109,7 +109,7 @@ second section image sliders
                 <input type="checkbox" name="Remember me" value="Bike"> Remember Me<br><br></div>
             <button type="submit" class="form-submit"> SUBMIT</button>
         </form>
-    </article>
+    </section>
     <!--leave message section-->
     <section class="lev-msg">
         <h1>
@@ -121,9 +121,11 @@ second section image sliders
         </p>
         <p>Read more >></p>
     </section>
+    </div>
 <!-- ===================================================================
     third section flex
 =========================================================================-->
+
     <!--flex box section three-->
     <section class="flex-three-container">
         <div>
@@ -206,81 +208,96 @@ second section image sliders
 <!--================================================================================
     scetion four ABOUT US
 ====================================================================================-->
-    <section class="about-us">
-        <div class="common-container">
-            <h1> ABOUT US</h1>
-            <div class="drop-symbol">
-                <div class="line2"></div>
-                <div class="tint">
-                    <i class="fa fa-tint" aria-hidden="true"></i>
-                </div>
-                <div class="line3"></div>
-            </div><br><br>
-            <p class="ourclass-p">Charixy is the charity,Non-profit government organization,fundrasin. Our
-                activities help entreprenurs get the target.
-            </p>
+<section class="about-us">
+    <!--changes to the drop symbol-->
+    <div class="common-container">
+        <div>
+        <div class="trail">
+        <h1> ABOUT US</h1>
+            <div>
+            <div class="line2"></div>
+            <div class="tint">
+                <i class="fa fa-tint" aria-hidden="true"></i>
+            </div>
+            <div class="line3"></div>
+            </div>
         </div>
-        <section class="flex-common flex-center">
-            <div>
-                <div>
-                    <h3>
-                        <span class="txt-underline">DONAT</span>ION
-                    </h3>
-                    <P>Vision is our mission. Restoring vision to people in
-                        developing nation is our cause. We are a nonpr
-                        local physicians
-                    </P><br>
-                </div>
-                <div>
-                    <h3>
-                        <span class="txt-underline">FUNDR</span>ISE
-                    </h3>
-                    <P>Vision is our mission. Restoring vision to people in
-                        developing nation is our cause. We are a nonpr
-                        local physicians
-                    </P>
-                </div>
-            </div>
-            <div>
-                <img src="images/about.jpg" alt="Donation clothes">
-            </div>
+        <div>
+        <p class="ourclass-p">Charixy is the charity,Non-profit government organization,fundrasin. Our
+            activities help entreprenurs get the target.
+        </p>
+        </div>
+    </div>
+    </div>
+    <!--changes to the drop symbol-->
+    <section class="flex-common flex-center box">
+        <div>
             <div>
                 <h3>
-                    <span class="txt-underline">SCHOL</span>ARSHIP
+                    <span class="txt-underline">DONAT</span>ION
                 </h3>
                 <P>Vision is our mission. Restoring vision to people in
                     developing nation is our cause. We are a nonpr
                     local physicians
                 </P><br>
+            </div>
+            <div>
                 <h3>
-                    <span class="txt-underline">VOLUN</span>TEER
+                    <span class="txt-underline">FUNDR</span>ISE
                 </h3>
                 <P>Vision is our mission. Restoring vision to people in
                     developing nation is our cause. We are a nonpr
                     local physicians
                 </P>
             </div>
-        </section>
+        </div>
+        <div >
+            <img src="images/about.jpg" alt="Donation clothes">
+        </div>
+        <div style="margin-left: 15px;">
+            <h3>
+                <span class="txt-underline">SCHOL</span>ARSHIP
+            </h3>
+            <P>Vision is our mission. Restoring vision to people in
+                developing nation is our cause. We are a nonpr
+                local physicians
+            </P><br>
+            <h3>
+                <span class="txt-underline">VOLUN</span>TEER
+            </h3>
+            <P>Vision is our mission. Restoring vision to people in
+                developing nation is our cause. We are a nonpr
+                local physicians
+            </P>
+        </div>
     </section>
+</section>
 <!--================================================================================
     scetion five our causes
 ====================================================================================-->
     <section class="ourcauses">
         <div class="common-container">
+            <div>
+            <div class="trail">
             <h1> OUR CAUSES</h1>
-            <div class="drop-symbol">
+                <div>
                 <div class="line2"></div>
                 <div class="tint">
                     <i class="fa fa-tint" aria-hidden="true"></i>
                 </div>
                 <div class="line3"></div>
-            </div><br><br>
+                </div>
+            </div>
+            <div>
             <p class="ourclass-p">Charixy is the charity,Non-profit government organization,fundrasin. Our
                 activities help entreprenurs get the target.
             </p>
+            </div>
         </div>
-        <section class="flex-common">
-            <div>
+        </div>
+        <div class="flex-ourcauses">
+        <section class="flex-commons-our mobour-causes">
+            <div class="our-causes-1">
                 <img src="images/causes-1.jpg" alt="causes-1">
                 <div class="ourcause-txt">
                     <h3>
@@ -310,7 +327,7 @@ second section image sliders
                     </article>
                 </div>
             </div>
-            <div>
+            <div class="our-causes-1">
                 <img src="images/causes-2.jpg" alt="causes-2">
                 <div class="ourcause-txt">
                     <h3>
@@ -340,7 +357,7 @@ second section image sliders
                     </article>
                 </div>
             </div>
-            <div>
+            <div class="our-causes-1">
                 <img src="images/causes-3.jpg" alt="causes-3">
                 <div class="ourcause-txt">
                     <h3>
@@ -371,15 +388,16 @@ second section image sliders
                 </div>
             </div>
         </section>
+        </div>
     </section>
 <!--================================================================================
     section six video heart broken story
 ====================================================================================-->
     <article class="flex-common hrt-brken-stry">
-        <div><img src="images/video-img.jpg" class="hrt-brken-image-overlay" alt="Heart broken story video">
+        <div><img src="images/video-img.jpg" class="hrt-brken-image-overlay hrt-brken-stry-img" alt="Heart broken story video">
             <img src="images/play-btn.png" class="play-btn"></div>
         <div style="padding-top: 4%;">
-            <h3>
+            <h3 style="padding-left: 10px;">
                 <span class="txt-underline">HEAR</span>T BROCKEN STORY
             </h3>
             <P>Even the all-powerful pointing has no control about the blind texts its is an
@@ -398,39 +416,45 @@ second section image sliders
 ====================================================================================-->
     <section class="ourgallery">
         <div class="common-container">
+            <div>
+            <div class="trail">
             <h1> OUR GALLERY</h1>
-            <div class="drop-symbol">
+                <div>
                 <div class="line2"></div>
                 <div class="tint">
                     <i class="fa fa-tint" aria-hidden="true"></i>
                 </div>
                 <div class="line3"></div>
-            </div><br><br>
+                </div>
+            </div>
+            <div>
             <p class="ourclass-p">Charixy is the charity,Non-profit government organization,fundrasin. Our
                 activities help entreprenurs get the target.
             </p>
+            </div>
+        </div>
         </div>
         <section class="flex-commons">
             <div class="flex-commons-align">
-                <img src="images/gallery-1.jpg" alt="gallery-1 image" width="630px" height="400">
+                <img src="images/gallery-1.jpg" class="gallery-4-img" alt="gallery-1 image">
             </div>
             <div class="flex-commons-align">
                 <div>
-                    <img src="images/gallery-2.jpg" class="img" alt="gallery-2 image" height="200" width="330">
+                    <img src="images/gallery-2.jpg" alt="gallery-2 image" height="200" >
                 </div>
                 <div>
-                    <img src="images/gallery-3.jpg" alt="gallery-3 image" height="200" width="330">
+                    <img src="images/gallery-3.jpg" alt="gallery-3 image" style="margin-top: -4px;" height="200">
                 </div>
             </div>
-            <div class="flex-commons-align galley-4-img">
-                <img src="images/gallery-4.jpg" class="over-lay" alt="gallery-4 image" height="400" width="300">
+            <div class="flex-commons-align gallery-4-img">
+                <img src="images/gallery-4.jpg" class="over-lay" alt="gallery-4 image">
             </div>
             <div class="flex-commons-align">
                 <div>
-                    <img src="images/gallery-5.jpg" class="img" alt="gallery-5 image" width="570" height="200">
+                    <img src="images/gallery-5.jpg"  alt="gallery-5 image" height="200">
                 </div>
                 <div>
-                    <img src="images/gallery-6.jpg" alt="gallery-6 image" width="570" height="200">
+                    <img src="images/gallery-6.jpg" alt="gallery-6 image" height="200" style="margin-top: -5px;">
                 </div>
             </div>
         </section>
@@ -440,17 +464,23 @@ second section image sliders
 ====================================================================================-->
     <section class="ourvolunteer">
         <div class="common-container">
+            <div>
+            <div class="trail">
             <h1> OUR VOLUNTEER</h1>
-            <div class="drop-symbol">
+                <div>
                 <div class="line2"></div>
                 <div class="tint">
                     <i class="fa fa-tint" aria-hidden="true"></i>
                 </div>
                 <div class="line3"></div>
-            </div><br><br>
+                </div>
+            </div>
+            <div>
             <p class="ourclass-p">Charixy is the charity,Non-profit government organization,fundrasin. Our
                 activities help entreprenurs get the target.
             </p>
+            </div>
+        </div>
         </div>
         <section class="flex-ourvolunteer">
             <div class="volunteer">
@@ -466,7 +496,7 @@ second section image sliders
                     </div>
                 </div>
             </div>
-            <div class="volunteer">
+            <div class="volunteer mob-view-vol">
                 <img src="images/volunteer-2.jpg" alt="volunteer-1 photo">
                 <p class="volunteer-p">Jack Doe </p>
                 <p style="color: grey;"> Volunteer</p>
@@ -479,7 +509,7 @@ second section image sliders
                     </div>
                 </div>
             </div>
-            <div class="volunteer">
+            <div class="volunteer mob-view-vol">
                 <img src="images/volunteer-3.jpg" alt="volunteer-1 photo">
                 <p class="volunteer-p">Flora View </p>
                 <p style="color: grey;"> Volunteer</p>
@@ -492,7 +522,7 @@ second section image sliders
                     </div>
                 </div>
             </div>
-            <div class="volunteer">
+            <div class="volunteer mob-view-vol">
                 <img src="images/volunteer-4.jpg" alt="volunteer-1 photo">
                 <p class="volunteer-p">Johnny Newmen </p>
                 <p style="color: grey;"> Volunteer</p>
@@ -541,25 +571,26 @@ second section image sliders
                 <li>Equality</li>
                 <li>Women</li>
             </ul>
-            <ul>
+            <ul >
                 <li class="last-item"><span>Tags&nbsp;&nbsp;</span></li>
                 <hr>
-                <li class="last-item"><button class="buttons button2"
-                        style="margin-top: 15px;">Faith</button>&nbsp;<button
-                        class="buttons button2">Forgiveness</button></li>
-                <li class="last-item"><button class="buttons button2">Donation</button>&nbsp;<button
-                        class="buttons button2">Animals</button></li>
-                <li class="last-item"><button class="buttons button2">Nature</button>&nbsp;<button
-                        class="buttons button2">Recycle</button></li>
+                <div class="foot-tag">
+                    <div><button class="tag-button">Faith</button></div>
+                    <div><button class="tag-button">Forgiveness</button></div>
+                    <div><button class="tag-button">Donation</button></div>
+                    <div><button class="tag-button">Animals</button></div>
+                    <div><button class="tag-button">Nature</button></div>
+                    <div><button class="tag-button">Recycle</button></div>
+                </div>
             </ul>
         </div>
         <div class="foot-signup">
-            <div><span> Sign-up for our newsletter </span></div>
+            <div class="sign-in"><span > Sign-up for our newsletter </span></div>
             <div><input type="mail" placeholder=" Enter your E-mail" /></div>
             <div><button class="button button3"> Subscribe Now</button></div>
         </div>
         <div class="foot-copyrgt"> <span>Copy rights 2017 :all rights are reserved</span></div>
       </footer>
-      
+
 </body>
 </html>
