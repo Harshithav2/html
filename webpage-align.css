@@ -1,5 +1,5 @@
 /*desktop view header*/
-body{
+body {
   margin: 0px;
   font-family: sans-serif;
   background-color: whitesmoke;
@@ -10,7 +10,6 @@ body{
 }
 .header-style {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: rgb(55, 55, 56);
@@ -19,36 +18,34 @@ body{
 .head-infos {
   border-bottom: 2px solid #f44121;
   padding: 15px;
+  margin-left: 14%;
+  margin-right: 10%;
 }
-.head-icons {
-  margin-left: 36%;
-}
+
 header div > i {
   padding: 0px 10px;
 }
 /* first section*/
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 5px;
 }
 .flex-container > div {
-  padding-right: 1%;
-  padding-left: 2%;
-  margin-bottom: 10px;
-  padding-top: 20px;
+  padding: 11px;
   text-align: center;
-  height: 50px;
 }
 .section-first-left {
   font-size: 25px;
   color: orangered;
   font-family: sans-serif;
 }
-@media (min-width:800px){
-.comp-icon{
-  display: none;
-}
+@media (min-width: 800px) {
+  .comp-icon {
+    display: none;
+  }
 }
 .drop {
   color: black;
@@ -68,9 +65,7 @@ header div > i {
   min-width: 160px;
   z-index: 1;
   background-color: white;
-  margin-top: 0px;
-  padding-top: 0px;
-  margin-top: 0px;
+  margin-top: 14px;
   padding-top: 0px;
 }
 .dropdown-content a {
@@ -95,9 +90,8 @@ header div > i {
   font-size: 18px;
   font-family: sans-serif;
   color: red;
-
 }
-.test{
+.test {
   display: flex;
   padding-bottom: 100px;
 }
@@ -202,8 +196,8 @@ header div > i {
 /*leave us a message section*/
 .lev-msg {
   width: 47%;
- padding-left: 42%;
- padding-right: 12%;
+  padding-left: 42%;
+  padding-right: 12%;
 }
 .lev-msg p {
   color: grey;
@@ -217,19 +211,22 @@ header div > i {
   margin-bottom: 0px;
 }
 /*section three flex box desktop*/
+.flex-box-three {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .flex-three-container {
   display: flex;
   justify-content: center;
-  padding-right: 12%;
-  padding-left: 9%;
   flex-wrap: wrap;
   font-size: 17px;
-  padding-bottom: 100px;
+  width: 1120px;
 }
 .flex-three-container > div {
   border: 1px solid rgb(221, 209, 209);
-  margin: 15px;
-  width: 330px;
+  margin: 5px;
+  width: 280px;
   padding: 10px;
 }
 .flex-three-content {
@@ -240,13 +237,13 @@ header div > i {
 }
 .flex-three-p {
   color: grey;
-  padding-left: 90px;
+  padding-left: 68px;
 }
 .flex-three-icon {
   border: 1px solid rgb(221, 209, 209);
   padding: 15px;
   float: left;
-  margin: 10px 30px 10px 10px;
+  margin: 10px;
   color: orangered;
 }
 .flex-three-content {
@@ -254,10 +251,6 @@ header div > i {
   font-family: sans-serif;
   padding-left: 50px;
   padding-top: 0px;
-}
-.flex-three-p {
-  color: grey;
-  padding-left: 90px;
 }
 .flex-three-container div:hover {
   border: 1px solid orangered;
@@ -277,7 +270,10 @@ header div > i {
   flex-wrap: wrap;
   align-items: flex-start;
 }
-.trail{
+.abt-space {
+  margin-left: 15px;
+}
+.trail {
   text-align: center;
 }
 .drop-symbol {
@@ -316,16 +312,18 @@ header div > i {
   float: left;
   line-height: 25px;
 }
-@media (min-width:800px){
-.flex-common, .flex-commons-our {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.flex-common > div,.flex-commons-our > div {
-  width: 350px;
-  height: 360px;
-}
+@media (min-width: 800px) {
+  .flex-common,
+  .flex-commons-our {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .flex-common > div,
+  .flex-commons-our > div {
+    width: 350px;
+    height: 360px;
+  }
 }
 .flex-center {
   margin-left: 10%;
@@ -335,7 +333,8 @@ header div > i {
   background-color: whitesmoke;
   margin-bottom: 0px;
 }
-.flex-common div > p, .flex-commons-our div > p {
+.flex-common div > p,
+.flex-commons-our div > p {
   color: grey;
   font-size: 13px;
   line-height: 23px;
@@ -352,14 +351,14 @@ header div > i {
   margin-top: -5px;
   padding: 10px 20px 10px 20px;
 }
-.our-causes-1{
-padding-right: 3%;
+.our-causes-1 {
+  padding-right: 3%;
 }
-.our-causes-1  > img{
+.our-causes-1 > img {
   width: 100%;
   height: 200px;
 }
-.mobour-causes{
+.mobour-causes {
   padding-right: 10%;
   padding-left: 10%;
   margin-left: 10%;
@@ -380,57 +379,59 @@ padding-right: 3%;
 }
 /*progress bar shape*/
 .shape {
-	height: 32px;
-	width: 32px;
-	background-color: orangered;
-	border-radius: 50%;
-	display: inline-block;
-	margin-bottom: -4px;
-	color: white;
+  height: 32px;
+  width: 32px;
+  background-color: orangered;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: -4px;
+  color: white;
 }
 .shape-text {
-	font-weight: bold;
-	font-size: 12px;
-	padding: 7px 5px 5px 5px;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 7px 5px 5px 5px;
 }
 .triangle-down {
-	width: 0;
-	height: 0;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	border-top: 10px solid orangered;
-	margin-left: 11px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid orangered;
+  margin-left: 11px;
 }
 .progressbar {
-	height: 4px;
-	margin-bottom: 40px;
-	background-color: #e4e4e4;
+  height: 4px;
+  margin-bottom: 40px;
+  background-color: #e4e4e4;
 }
 /*progress bar*/
 .progressbar > div {
-	background-color: orangered;
-	width: 40%;
-	height: 4px;
+  background-color: orangered;
+  width: 40%;
+  height: 4px;
 }
 .donatedamt div > p {
-	color: orangered;
-	font-size: 14px;
+  color: orangered;
+  font-size: 14px;
 }
 .donatedamt div {
-	line-height: 8px;
+  line-height: 8px;
 }
 .align-goal {
-	float: right;
-	text-align: right;
+  float: right;
+  text-align: right;
 }
 /*section six heart broken story*/
 .hrt-brken-stry {
   background-color: black;
   color: white;
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  padding-bottom: 0px;
 }
 .hrt-brken-image-overlay {
-  width: 555px;
-  height: 300px;
   opacity: 0.4;
 }
 .play-btn {
@@ -439,31 +440,28 @@ padding-right: 3%;
   transform: translate(250%, -200%);
 }
 .hrt-brken-image {
-	background-color: black;
+  background-color: black;
 }
 .hrt-brken-stry div > p {
-		color: white;
-		line-height: 25px;
-    font-size: 15px;
-    padding-left: 10px;
-	}
-	.hrt-brken-stry > div {
-		width: 555px;
-		height: 300px;
-		padding-top: 5%;
-		padding-bottom: 5%;
-  }
+  color: white;
+  line-height: 25px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.hrt-brken-stry > div {
+  padding-top: 5%;
+}
 /*section seven OUR GALLERY*/
 .flex-commons {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.flex-commons-align > img{
+.flex-commons-align > img {
   height: 400px;
   width: 100%;
 }
-.flex-commons-align div > img{
+.flex-commons-align div > img {
   height: 200px;
   width: 100%;
 }
@@ -479,9 +477,9 @@ padding-right: 3%;
 }*/
 /*SECTION EIGHT OUR VOLUNTEER*/
 .ourvolunteer {
-  height: 870px;
   background-color: whitesmoke;
   margin-bottom: 0px;
+  padding-bottom: 50px;
 }
 .flex-ourvolunteer {
   display: flex;
@@ -505,7 +503,7 @@ padding-right: 3%;
 .volunteer {
   width: 220px;
   background-color: white;
-  height: 325px;
+  padding-bottom: 10px;
   margin: 10px;
 }
 .volunteer > img {
@@ -545,23 +543,23 @@ padding-right: 3%;
   padding-left: 10%;
   padding-right: 10%;
 }
-.foot-tag{
+.foot-tag {
   width: 200px;
   margin-top: 25px;
 }
-.foot-tag{
+.foot-tag {
   display: flex;
   flex-wrap: wrap;
 }
-.foot-tag  div{
+.foot-tag div {
   width: auto;
 }
 .footer-field {
   background-color: rgb(55, 55, 57);
   margin-top: 0em;
 }
-.tag-button{
-  background-color:  rgb(55, 55, 57);
+.tag-button {
+  background-color: rgb(55, 55, 57);
   color: white;
   border: 1px solid white;
   padding: 10px;
@@ -569,11 +567,11 @@ padding-right: 3%;
   margin-bottom: 10px;
   font-size: 16px;
 }
-.foot-tag button:hover{
+.foot-tag button:hover {
   background-color: orangered;
   border: 1px solid orangered;
 }
-.foot-list ul > li:hover{
+.foot-list ul > li:hover {
   color: orangered;
 }
 .foot-list ul {
@@ -609,53 +607,53 @@ padding-right: 3%;
   display: flex;
   justify-content: center;
 }
-.sign-in{
+.sign-in {
   font-size: 11px;
   padding-top: 8px;
 }
-  .foot-copyrgt {
-    background-color: black;
-    height: 5%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .foot-signup div {
-    margin-right: 1em;
-  }
-  .foot-signup div span {
-    font-size: 2em;
-    font-weight: bold;
-    text-transform: capitalize;
-  }
-  .foot-signup input[type="mail"] {
-    width: 315px;
-    padding: 1em;
-    border: none;
-  }
-  .foot-signup .button3 {
-    border: 1px solid white;
-    color: white;
-    text-transform: uppercase;
-    background-color: #cb3d24;
-  }
-  .foot-copyrgt span {
-    text-transform: capitalize;
-    font-size: 1em;
-    color: white;
-    padding: 2em;
-  }
-  .buttons {
-    height: 2em;
-    width: 10em;
-    padding: 5px;
-    background: none;
-  }
+.foot-copyrgt {
+  background-color: black;
+  height: 5%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot-signup div {
+  margin-right: 1em;
+}
+.foot-signup div span {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.foot-signup input[type="mail"] {
+  width: 315px;
+  padding: 1em;
+  border: none;
+}
+.foot-signup .button3 {
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  background-color: #cb3d24;
+}
+.foot-copyrgt span {
+  text-transform: capitalize;
+  font-size: 1em;
+  color: white;
+  padding: 2em;
+}
+.buttons {
+  height: 2em;
+  width: 10em;
+  padding: 5px;
+  background: none;
+}
 
 /*mobile view of the webpage*/
 @media (min-width: 400px) and (max-width: 800px) {
-  body{
+  body {
     margin: 0px;
     font-family: sans-serif;
     background-color: whitesmoke;
@@ -674,272 +672,275 @@ padding-right: 3%;
     width: 100%;
   }
   .head-infos {
-    width: 100%;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 14px;
     border: none;
+    margin: 0px;
   }
-  .head-inf{
+  .head-inf {
     padding-left: 50px;
     width: 100%;
     justify-content: center;
     padding-left: 19%;
     padding-top: 10px;
     padding-bottom: 14px;
-
   }
-  .head-icons{
+  .head-icons {
     justify-content: center;
     border: none;
- }
+  }
   header div > i {
     padding: 0px 10px;
   }
   /* section one company name mobile version*/
-  .flex-container div > i, div > a, .first-section-right{
+  .flex-container div > i,
+  div > a,
+  .first-section-right {
     display: none;
   }
-  .comp-icon{
+  .comp-icon {
     color: grey;
     width: 200px;
   }
-  .comp-icon i{
+  .comp-icon i {
     float: right;
   }
-  .flex-container div{
+  .flex-container div {
     padding: 0px;
     padding-top: 5px;
     margin: 0px;
   }
-/*section two image slider*/
-.section-two-imageslider {
-  height: 210px;
-  background: black;
-}
-.section-two-imageslider > img{
-  height: 210px;
-}
-.img-overlay {
-  width: 100%;
-  opacity: 0.4;
-}
-.imgslider-text {
-  top: 225px;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  color: white;
-}
-.imgslider-text fieldset > legend{
-  font-size: 20px;
-}
-.underline {
-  border-bottom: 2px solid orangered;
-}
-.resp-border{
-  border: none;
-}
-.imgslider-text fieldset > p, .btn-readmore-align{
-  display: none;
-}
-.imgslider-text fieldset{
-  border: none;
-}
-/*form section three*/
-.form {
-  width: 280px;
-  float: left;
-  margin-left: 17%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.form input[type="text"] {
-  padding-left: 20px;
-  margin: 5px 0px 5px 0px;
-}
-.form-align {
-  width: 40%;
-  margin-top: 0px;
-  position: absolute;
-}
-.checkbox {
-  color: orangered;
-}
-/*leave us a message section*/
-.lev-msg {
-  width: 95%;
-  padding: 10px 30px 10px 10px;
-  margin-top: 50px;
-  margin-bottom: 60px;
-  top: 50%;
-  transform: translate(20px,316px);
-  padding-bottom: 160px;
-}
-/*section three flex box*/
-.flex-three-container{
-  background-color: white;
-  padding-bottom: 40px;
-}
-/*about us container css*/
-.ourclass-p {
-  color: grey;
-  width: 395px;
-  text-align: center;
-  line-height: 25px;
-}
-.box {
-  display: flex;
-  flex-direction: column;
-  padding-left: 20px;
-}
-.box > div{
-  width: 95%;
-}
-.box div> img{
-  width: 95%;
-}
-.box  div > p{
-  line-height: 25px;
-}
-.box :nth-child(1){order: 2;}
-.box :nth-child(2){order: 1;}
-.box :nth-child(3){order: 3;}
-.line2 {
-  width: 40px;
-  margin-left: 140px;
-  border-bottom: 2px solid orangered;
-  margin-top: 20px;
-  float: left;
-}
-.flex-common > div {
-  width: 350px;
-  height: 360px;
-}
-.flex-center {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-.ourcauses {
-  background-color: white;
-  height: 100%;
-}
-.our-causes-1  > img{
-  width: 80%;
-  height: 200px;
-}
-.flex-ourcauses{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-.our-causes-1{
-  padding-right: 0px;
-  padding-left: 20%;
-}
-.mobour-causes{
-  margin: 0px;
-  padding: 0px;
-}
-.flex-commons-our > div {
-  width: 350px;
-  height: 600px;
-}
-.flex-commons-our div > p {
-  color: grey;
-  font-size: 13px;
-  line-height: 23px;
-}
-/*section six heart broken story*/
-
-.hrt-brken-image-overlay {
-  width: 100%;
-  height: 240px;
-  opacity: 0.4;
-}
-.hrt-brken-stry{
-  padding: 30px;
-}
-.hrt-brken-stry div:first-child{
-  height: 210px;
-}
-.play-btn {
-  top: 50%;
-  left: 50%;
-  transform: translate(150%, -200%);
-}
-/*our gallery*/
-.flex-commons-align img{
-  width: 100%;
-}
-.flex-commons {
-  display: flex;
-  flex-direction: column;
-}
-/*SECTION EIGHT OUR VOLUNTEER*/
-.volunteer-icon {
-  padding-left: 27px;
-  padding-right: 35px;
-  margin-left: 10px;
-  color: grey;
-}
-.mob-view-vol{
-  display: none;
-}
-/*footor section mobile view*/
-.footer-field{
-  color: white;
-  padding-top: 30px;
-}
-.foot-list{
-  flex-direction: column;
-}
-.foot-list ul > li{
-  width: 100%;
-}
-.foot-tag{
-  width: 350px;
-  margin-top: 25px;
-}
-.foot-signup{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #cb3d24;
-  color: white;
-  padding: 20px;
-}
-.foot-signup div{
-  margin: 10px;
-}
-.foot-signup div:first-child{
-  padding-left: 10%;
-  width: 500px;
-}
-.foot-signup div:last-child{
-  padding-left: 30%;
-  width: 400px;
-}
-.sign-in{
-  font-size: 12px;
-}
-.foot-copyrgt{
-  background-color: rgb(55, 55, 57);
-  text-align: center;
-  padding: 30px;
-}
-.foot-signup {
-  background-color: #cb3d24;
-  padding: 2em 0 2em 2em;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
+  /*section two image slider*/
+  .section-two-imageslider {
+    height: 210px;
+    background: black;
+  }
+  .section-two-imageslider > img {
+    height: 210px;
+  }
+  .img-overlay {
+    width: 100%;
+    opacity: 0.4;
+  }
+  .imgslider-text {
+    top: 225px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .imgslider-text fieldset > legend {
+    font-size: 20px;
+  }
+  .underline {
+    border-bottom: 2px solid orangered;
+  }
+  .resp-border {
+    border: none;
+  }
+  .imgslider-text fieldset > p,
+  .btn-readmore-align {
+    display: none;
+  }
+  .imgslider-text fieldset {
+    border: none;
+  }
+  /*form section three*/
+  .test {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    justify-content: center;
+  }
+  .form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .form input[type="text"] {
+    padding-left: 20px;
+    margin: 5px 0px 5px 0px;
+  }
+  .form-align {
+    margin-top: 0px;
+    position: absolute;
+    width: 345px;
+  }
+  .checkbox {
+    color: orangered;
+  }
+  /*leave us a message section*/
+  .lev-msg {
+    width: 330px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    top: 50%;
+    transform: translate(20px, 316px);
+    padding-bottom: 160px;
+  }
+  /*section three flex box*/
+  .flex-three-container {
+    background-color: white;
+    padding-bottom: 40px;
+  }
+  /*about us container css*/
+  .ourclass-p {
+    color: grey;
+    width: 395px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .abt-space {
+    margin-left: 0px;
+  }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box > div {
+    width: 95%;
+  }
+  .box div > img {
+    width: 95%;
+  }
+  .box div > p {
+    line-height: 25px;
+  }
+  .box :nth-child(1) {
+    order: 2;
+  }
+  .box :nth-child(2) {
+    order: 1;
+  }
+  .box :nth-child(3) {
+    order: 3;
+  }
+  .line2 {
+    width: 40px;
+    margin-left: 140px;
+    border-bottom: 2px solid orangered;
+    margin-top: 20px;
+    float: left;
+  }
+  .flex-common > div {
+    width: 325px;
+  }
+  .flex-center {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .ourcauses {
+    background-color: white;
+    height: 100%;
+  }
+  .our-causes-1 > img {
+    width: 80%;
+    height: 200px;
+  }
+  .flex-ourcauses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .our-causes-1 {
+    padding-right: 0px;
+    padding-left: 40px;
+  }
+  .mobour-causes {
+    margin: 0px;
+    padding: 0px;
+  }
+  .flex-commons-our > div {
+    width: 350px;
+    height: 600px;
+  }
+  .flex-commons-our div > p {
+    color: grey;
+    font-size: 13px;
+    line-height: 23px;
+  }
+  /*section six heart broken story*/
+  .flex-common {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .hrt-brken-image-overlay {
+    width: 100%;
+    height: 240px;
+    opacity: 0.4;
+  }
+  .hrt-brken-stry {
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+  .hrt-brken-stry div:first-child {
+    height: 210px;
+  }
+  .play-btn {
+    top: 50%;
+    left: 50%;
+    transform: translate(150%, -200%);
+  }
+  /*our gallery*/
+  .flex-commons-align img {
+    width: 100%;
+  }
+  .flex-commons {
+    display: flex;
+    flex-direction: column;
+  }
+  /*SECTION EIGHT OUR VOLUNTEER*/
+  .volunteer-icon {
+    padding-left: 27px;
+    padding-right: 35px;
+    margin-left: 10px;
+    color: grey;
+  }
+  .mob-view-vol {
+    display: none;
+  }
+  /*footor section mobile view*/
+  .footer-field {
+    color: white;
+    padding-top: 30px;
+  }
+  .foot-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .foot-list ul > li {
+    width: 100%;
+  }
+  .foot-tag {
+    width: 350px;
+    margin-top: 25px;
+  }
+  .foot-signup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #cb3d24;
+    color: white;
+    padding: 20px;
+  }
+  .foot-signup div {
+    margin: 5px;
+  }
+  .foot-signup div:first-child {
+    padding-left: 5%;
+    width: 315px;
+    justify-content: center;
+  }
+  .foot-signup div:last-child {
+    padding-left: 78px;
+    width: 228px;
+  }
+  .sign-in {
+    font-size: 12px;
+  }
   .foot-copyrgt {
     background-color: black;
-    height: 5%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 }
