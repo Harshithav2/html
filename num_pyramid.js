@@ -1,7 +1,7 @@
 var sp;
 var i;
 var j;
-var n=5;
+var n=20;
 var num;
 for (i=1; i<=n; i++)
 {
@@ -12,14 +12,14 @@ for (i=1; i<=n; i++)
   str=str+" ";
   }
   for(j=1;j<=i;j++){
-    str=str+num;
+    str=str+(num%10);
     num++;
   }
-  num--;
-  num--;
+  num-=2;
+
   for(j=1;j<i;j++)
   {
-    str=str+num;
+    str=str+(num%10);
     num--;
   }
   console.log(str);
