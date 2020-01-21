@@ -1,4 +1,4 @@
-var sp;
+var sp=' ';
 var i;
 var j;
 var n=20;
@@ -9,17 +9,17 @@ for (i=1; i<=n; i++)
   num=i;
   for(j=1;j<=n-i;j++)
   {
-  str=str+" ";
+  str=sp+str+' ';
   }
   for(j=1;j<=i;j++){
-    str=str+(num%10);
+    str=str+(' '+num%10);
     num++;
   }
   num-=2;
 
   for(j=1;j<i;j++)
   {
-    str=str+(num%10);
+    str=str+(' '+num%10);
     num--;
   }
   console.log(str);
